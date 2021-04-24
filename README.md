@@ -1,6 +1,6 @@
 # Thesis_EMIclassification
 
-The code that was used as part of the data analysis for this thesis is organized in 5 notebooks
+The code that was used as part of the data analysis for this thesis is organized in 5 notebooks:
 
 * 1.expl_interp.ipynb
 
