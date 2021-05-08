@@ -23,6 +23,6 @@ It also contains an illustration using a toy dataset to better understand the as
 Contains the code for the construction of a Self-Organizing Map using the miniSOM library. To deduce a sensible classification from the SOM, Kmeans is performed on the
 SOM grid.
 
-* 5.GeoSOM.ipynb
+* 6.FKM_smoothing.ipynb
 
-To be completed
+Contains the code for a fuzzy k-means classification followed by spatial smoothing taking into account the spatial autocorrelation of the variables.
