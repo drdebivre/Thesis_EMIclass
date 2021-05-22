@@ -33,4 +33,4 @@ Contains the exploration of some ideas related to what was encountered during th
 
 * utils.py
 
-Contains self-written functions that are called in the analyses
+Contains self-written functions that are called in the analyses.
