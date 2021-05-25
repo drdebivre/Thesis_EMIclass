@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+# Function for calculating coherence index
+
 def coherence(distance_matrix, lag, tolerance, classification):
     ul = lag + tolerance
     ll = lag - tolerance
