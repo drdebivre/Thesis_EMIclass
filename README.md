@@ -10,18 +10,16 @@ Besides, the notebook also contains data exploration in the form of histograms, 
 * 2.K_means.ipynb
 
 Contains the code for classifications based on the K-means algorithm. In essence it contains the results of a classification only considering the QP variables 
-and another classification also considering the coordinates of each point on the grid. It also has some code exploring how to understand the observed trend in the BIC that does not
-reach an optimum for any of the approaches.
+and another classification also considering the coordinates of each point on the grid. 
 
 * 3.Gaussian_mixture.ipynb
 
-Contains the code for the classification by means of the estimation of a gaussian mixture model. This is done through the EM-algorithm that is available through scikit-learn. 
+Contains the code for the classification by means of the estimation of a gaussian mixture model. This is done through the EM-algorithm that is available in the scikit-learn module. 
 It also contains an illustration using a toy dataset to better understand the assumptions that are made in this analysis.
 
 * 4.SOM.ipynb
 
-Contains the code for the construction of a Self-Organizing Map using the miniSOM library. To deduce a sensible classification from the SOM, Kmeans is performed on the
-SOM grid.
+Contains the code for the construction of a Self-Organizing Map using the miniSOM library. To deduce a sensible classification from the SOM, Kmeans is performed on the weights of the SOM grid. All observations are then classified accordingly.
 
 * 5.FKM_smoothing.ipynb
 
